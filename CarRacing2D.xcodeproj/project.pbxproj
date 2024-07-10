@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09BABA22C3E7D76006A8FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BABA12C3E7D76006A8FC0 /* AppDelegate.swift */; };
+		D09BABA42C3E7D76006A8FC0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D09BABA32C3E7D76006A8FC0 /* GameScene.sks */; };
+		D09BABA62C3E7D76006A8FC0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D09BABA52C3E7D76006A8FC0 /* Actions.sks */; };
+		D09BABA82C3E7D76006A8FC0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BABA72C3E7D76006A8FC0 /* GameScene.swift */; };
+		D09BABAA2C3E7D76006A8FC0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BABA92C3E7D76006A8FC0 /* GameViewController.swift */; };
+		D09BABAD2C3E7D76006A8FC0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D09BABAC2C3E7D76006A8FC0 /* Base */; };
+		D09BABAF2C3E7D77006A8FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09BABAE2C3E7D77006A8FC0 /* Assets.xcassets */; };
+		D09BABB22C3E7D77006A8FC0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D09BABB12C3E7D77006A8FC0 /* Base */; };
+		D09BABBC2C3E7D77006A8FC0 /* CarRacing2DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BABBB2C3E7D77006A8FC0 /* CarRacing2DTests.swift */; };
+		D09BABC62C3E7D77006A8FC0 /* CarRacing2DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BABC52C3E7D77006A8FC0 /* CarRacing2DUITests.swift */; };
+		D09BABC82C3E7D77006A8FC0 /* CarRacing2DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09BABC72C3E7D77006A8FC0 /* CarRacing2DUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09BABB82C3E7D77006A8FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09BAB962C3E7D76006A8FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB9D2C3E7D76006A8FC0;
+			remoteInfo = CarRacing2D;
+		};
+		D09BABC22C3E7D77006A8FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09BAB962C3E7D76006A8FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09BAB9D2C3E7D76006A8FC0;
+			remoteInfo = CarRacing2D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09BAB9E2C3E7D76006A8FC0 /* CarRacing2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarRacing2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BABA12C3E7D76006A8FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D09BABA32C3E7D76006A8FC0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D09BABA52C3E7D76006A8FC0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D09BABA72C3E7D76006A8FC0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D09BABA92C3E7D76006A8FC0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D09BABAC2C3E7D76006A8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09BABAE2C3E7D77006A8FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D09BABB12C3E7D77006A8FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D09BABB72C3E7D77006A8FC0 /* CarRacing2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRacing2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BABBB2C3E7D77006A8FC0 /* CarRacing2DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacing2DTests.swift; sourceTree = "<group>"; };
+		D09BABC12C3E7D77006A8FC0 /* CarRacing2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRacing2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09BABC52C3E7D77006A8FC0 /* CarRacing2DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacing2DUITests.swift; sourceTree = "<group>"; };
+		D09BABC72C3E7D77006A8FC0 /* CarRacing2DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacing2DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09BAB9B2C3E7D76006A8FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BABB42C3E7D77006A8FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BABBE2C3E7D77006A8FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09BAB952C3E7D76006A8FC0 = {
+			isa = PBXGroup;
+			children = (
+				D09BABA02C3E7D76006A8FC0 /* CarRacing2D */,
+				D09BABBA2C3E7D77006A8FC0 /* CarRacing2DTests */,
+				D09BABC42C3E7D77006A8FC0 /* CarRacing2DUITests */,
+				D09BAB9F2C3E7D76006A8FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09BAB9F2C3E7D76006A8FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09BAB9E2C3E7D76006A8FC0 /* CarRacing2D.app */,
+				D09BABB72C3E7D77006A8FC0 /* CarRacing2DTests.xctest */,
+				D09BABC12C3E7D77006A8FC0 /* CarRacing2DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09BABA02C3E7D76006A8FC0 /* CarRacing2D */ = {
+			isa = PBXGroup;
+			children = (
+				D09BABA12C3E7D76006A8FC0 /* AppDelegate.swift */,
+				D09BABA32C3E7D76006A8FC0 /* GameScene.sks */,
+				D09BABA52C3E7D76006A8FC0 /* Actions.sks */,
+				D09BABA72C3E7D76006A8FC0 /* GameScene.swift */,
+				D09BABA92C3E7D76006A8FC0 /* GameViewController.swift */,
+				D09BABAB2C3E7D76006A8FC0 /* Main.storyboard */,
+				D09BABAE2C3E7D77006A8FC0 /* Assets.xcassets */,
+				D09BABB02C3E7D77006A8FC0 /* LaunchScreen.storyboard */,
+			);
+			path = CarRacing2D;
+			sourceTree = "<group>";
+		};
+		D09BABBA2C3E7D77006A8FC0 /* CarRacing2DTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09BABBB2C3E7D77006A8FC0 /* CarRacing2DTests.swift */,
+			);
+			path = CarRacing2DTests;
+			sourceTree = "<group>";
+		};
+		D09BABC42C3E7D77006A8FC0 /* CarRacing2DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D09BABC52C3E7D77006A8FC0 /* CarRacing2DUITests.swift */,
+				D09BABC72C3E7D77006A8FC0 /* CarRacing2DUITestsLaunchTests.swift */,
+			);
+			path = CarRacing2DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09BAB9D2C3E7D76006A8FC0 /* CarRacing2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BABCB2C3E7D77006A8FC0 /* Build configuration list for PBXNativeTarget "CarRacing2D" */;
+			buildPhases = (
+				D09BAB9A2C3E7D76006A8FC0 /* Sources */,
+				D09BAB9B2C3E7D76006A8FC0 /* Frameworks */,
+				D09BAB9C2C3E7D76006A8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarRacing2D;
+			productName = CarRacing2D;
+			productReference = D09BAB9E2C3E7D76006A8FC0 /* CarRacing2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09BABB62C3E7D77006A8FC0 /* CarRacing2DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BABCE2C3E7D77006A8FC0 /* Build configuration list for PBXNativeTarget "CarRacing2DTests" */;
+			buildPhases = (
+				D09BABB32C3E7D77006A8FC0 /* Sources */,
+				D09BABB42C3E7D77006A8FC0 /* Frameworks */,
+				D09BABB52C3E7D77006A8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09BABB92C3E7D77006A8FC0 /* PBXTargetDependency */,
+			);
+			name = CarRacing2DTests;
+			productName = CarRacing2DTests;
+			productReference = D09BABB72C3E7D77006A8FC0 /* CarRacing2DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D09BABC02C3E7D77006A8FC0 /* CarRacing2DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09BABD12C3E7D77006A8FC0 /* Build configuration list for PBXNativeTarget "CarRacing2DUITests" */;
+			buildPhases = (
+				D09BABBD2C3E7D77006A8FC0 /* Sources */,
+				D09BABBE2C3E7D77006A8FC0 /* Frameworks */,
+				D09BABBF2C3E7D77006A8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09BABC32C3E7D77006A8FC0 /* PBXTargetDependency */,
+			);
+			name = CarRacing2DUITests;
+			productName = CarRacing2DUITests;
+			productReference = D09BABC12C3E7D77006A8FC0 /* CarRacing2DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09BAB962C3E7D76006A8FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D09BAB9D2C3E7D76006A8FC0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D09BABB62C3E7D77006A8FC0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D09BAB9D2C3E7D76006A8FC0;
+					};
+					D09BABC02C3E7D77006A8FC0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D09BAB9D2C3E7D76006A8FC0;
+					};
+				};
+			};
+			buildConfigurationList = D09BAB992C3E7D76006A8FC0 /* Build configuration list for PBXProject "CarRacing2D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09BAB952C3E7D76006A8FC0;
+			productRefGroup = D09BAB9F2C3E7D76006A8FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09BAB9D2C3E7D76006A8FC0 /* CarRacing2D */,
+				D09BABB62C3E7D77006A8FC0 /* CarRacing2DTests */,
+				D09BABC02C3E7D77006A8FC0 /* CarRacing2DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09BAB9C2C3E7D76006A8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BABA42C3E7D76006A8FC0 /* GameScene.sks in Resources */,
+				D09BABAD2C3E7D76006A8FC0 /* Base in Resources */,
+				D09BABAF2C3E7D77006A8FC0 /* Assets.xcassets in Resources */,
+				D09BABA62C3E7D76006A8FC0 /* Actions.sks in Resources */,
+				D09BABB22C3E7D77006A8FC0 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BABB52C3E7D77006A8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BABBF2C3E7D77006A8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09BAB9A2C3E7D76006A8FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BABA82C3E7D76006A8FC0 /* GameScene.swift in Sources */,
+				D09BABAA2C3E7D76006A8FC0 /* GameViewController.swift in Sources */,
+				D09BABA22C3E7D76006A8FC0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BABB32C3E7D77006A8FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BABBC2C3E7D77006A8FC0 /* CarRacing2DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09BABBD2C3E7D77006A8FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09BABC62C3E7D77006A8FC0 /* CarRacing2DUITests.swift in Sources */,
+				D09BABC82C3E7D77006A8FC0 /* CarRacing2DUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09BABB92C3E7D77006A8FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09BAB9D2C3E7D76006A8FC0 /* CarRacing2D */;
+			targetProxy = D09BABB82C3E7D77006A8FC0 /* PBXContainerItemProxy */;
+		};
+		D09BABC32C3E7D77006A8FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09BAB9D2C3E7D76006A8FC0 /* CarRacing2D */;
+			targetProxy = D09BABC22C3E7D77006A8FC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09BABAB2C3E7D76006A8FC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09BABAC2C3E7D76006A8FC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D09BABB02C3E7D77006A8FC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09BABB12C3E7D77006A8FC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09BABC92C3E7D77006A8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D09BABCA2C3E7D77006A8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09BABCC2C3E7D77006A8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVFXJGJ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madan.CarRacing2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D09BABCD2C3E7D77006A8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVFXJGJ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madan.CarRacing2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D09BABCF2C3E7D77006A8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVFXJGJ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madan.CarRacing2DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarRacing2D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarRacing2D";
+			};
+			name = Debug;
+		};
+		D09BABD02C3E7D77006A8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVFXJGJ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madan.CarRacing2DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarRacing2D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarRacing2D";
+			};
+			name = Release;
+		};
+		D09BABD22C3E7D77006A8FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVFXJGJ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madan.CarRacing2DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarRacing2D;
+			};
+			name = Debug;
+		};
+		D09BABD32C3E7D77006A8FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFVFXJGJ26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.madan.CarRacing2DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarRacing2D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09BAB992C3E7D76006A8FC0 /* Build configuration list for PBXProject "CarRacing2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BABC92C3E7D77006A8FC0 /* Debug */,
+				D09BABCA2C3E7D77006A8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BABCB2C3E7D77006A8FC0 /* Build configuration list for PBXNativeTarget "CarRacing2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BABCC2C3E7D77006A8FC0 /* Debug */,
+				D09BABCD2C3E7D77006A8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BABCE2C3E7D77006A8FC0 /* Build configuration list for PBXNativeTarget "CarRacing2DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BABCF2C3E7D77006A8FC0 /* Debug */,
+				D09BABD02C3E7D77006A8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09BABD12C3E7D77006A8FC0 /* Build configuration list for PBXNativeTarget "CarRacing2DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09BABD22C3E7D77006A8FC0 /* Debug */,
+				D09BABD32C3E7D77006A8FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09BAB962C3E7D76006A8FC0 /* Project object */;
+}
